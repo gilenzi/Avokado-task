@@ -1,0 +1,77 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 1.8rem 0;
+
+  &__img {
+    width: 12.8rem;
+    height: 3.5rem;
+    margin: 0 16.6rem 0 0;
+  }
+  &__list {
+    display: flex;
+    align-items: center !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    display: block;
+    font-family: "Secular One", sans-serif;
+    font-size: 1.5rem;
+    color: $black-two;
+    padding: 2.4rem 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.005rem;
+    white-space: nowrap;
+    &:hover {
+      color: $medium-pink;
+    }
+  }
+
+  &__right {
+    display: flex;
+    margin-left: 17.4rem;
+  }
+
+  &__language {
+    display: flex;
+    margin-right: 1.9rem;
+  }
+
+  &__language span {
+    font-family: "Secular One", sans-serif;
+    font-size: 1.43rem;
+    padding: 2.5rem 0 2.4rem 0;
+    color: $black-two;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.005rem;
+
+    &:nth-child(1) {
+      color: $medium-pink;
+    }
+  }
+
+  &__cart {
+    display: flex;
+    align-items: center;
+  }
+  &__count {
+    font-family: "Secular One", sans-serif;
+    font-size: 1.43rem;
+    color: $medium-pink;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.005rem;
+  }
+}

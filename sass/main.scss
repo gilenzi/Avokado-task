@@ -5,6 +5,10 @@
 @import "base/base";
 @import "base/typography";
 
+//Components
+@import "components/page-header";
+@import "components/breadcrumbs";
+
 // Layout
 @import "layout/header";
 @import "layout/navigation";
