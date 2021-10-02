@@ -1,0 +1,14 @@
+{
+  "name": "avokado-task",
+  "version": "1.0.0",
+  "description": "Creating task for Avocado",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ognjen Popovic",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
