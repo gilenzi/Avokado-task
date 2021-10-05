@@ -420,7 +420,7 @@ body {
     @media only screen and (max-width: 61.9375em) {
       .navigation__list {
         position: fixed;
-        top: 7%;
+        top: 11%;
         left: 0;
         width: 100%;
         height: 100vh;
@@ -546,6 +546,9 @@ body {
 
 .social img {
   margin-right: 2rem; }
+
+.social a {
+  text-decoration: none; }
 
 .footer-nav__link--about {
   font-size: 1.4rem;
