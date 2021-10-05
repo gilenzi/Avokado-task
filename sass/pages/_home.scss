@@ -1,4 +1,160 @@
 .container {
   max-width: 114rem;
   padding: 0;
+  @media only screen and (max-width: 74.8125em) {
+    max-width: 94.4rem;
+  }
+  @media only screen and (max-width: 61.9375em) {
+    max-width: 70.4rem;
+  }
+  @media only screen and (max-width: 47.9375em) {
+    max-width: 52.4rem;
+  }
+  @media only screen and (max-width: 35.9375em) {
+    padding: 0 0.8rem;
+  }
+}
+
+// ===========================================================
+// FRANCHIZE SECTION
+// ===========================================================
+
+.franchize {
+  background-image: url(../../img/path-9-copy-2.svg);
+  padding-top: 7.8rem;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 13.4rem;
+}
+
+// ===========================================================
+// ABOUT SECTION
+// ===========================================================
+
+.about {
+  margin-top: 6.8rem;
+  margin-bottom: 5rem;
+}
+
+.about-container {
+  display: flex;
+  margin-bottom: 5.4rem;
+  @media only screen and (max-width: 61.9375em) {
+    flex-direction: column;
+  }
+}
+
+.awards-gallery-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.awards-gallery-container .image {
+  margin-right: 1.9rem;
+}
+.awards-gallery-container .image:nth-child(2) {
+  margin-right: 5.4rem;
+}
+
+.support-logo-container {
+  display: flex;
+  @media only screen and (max-width: 74.8125em) {
+    flex-wrap: wrap;
+  }
+}
+
+.support-logo {
+  background-color: $white-two;
+  margin-right: 1.2rem;
+  height: 4.2rem;
+  @media only screen and (max-width: 74.8125em) {
+    margin-top: 1rem;
+  }
+  &:nth-child(1) {
+    width: 11.4rem;
+  }
+  &:nth-child(2) {
+    width: 8.1rem;
+  }
+  &:nth-child(3) {
+    width: 10.9rem;
+  }
+  &:nth-child(4) {
+    width: 11.4rem;
+  }
+  &:nth-child(5) {
+    width: 8.1rem;
+  }
+  &:nth-child(6) {
+    width: 10.9rem;
+  }
+  &:nth-child(7) {
+    width: 11.4rem;
+  }
+  &:nth-child(8) {
+    width: 10.4rem;
+  }
+}
+
+// ===========================================================
+// REFERENCE SECTION
+// ===========================================================
+.references {
+  margin-right: 5.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.references-container {
+  display: flex;
+  @media only screen and (max-width: 61.9375em) {
+    flex-direction: column;
+  }
+}
+.references-logo-container {
+  display: flex;
+}
+
+.support-container {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 61.9375em) {
+    margin-top: 2rem;
+  }
+}
+
+.support-logo-container {
+  margin: auto 0;
+}
+
+.references-logo {
+  background-color: $white-two;
+  margin-right: 1.3rem;
+  height: 4.2rem;
+  &:nth-child(1) {
+    width: 12.1rem;
+  }
+  &:nth-child(2) {
+    width: 8.5rem;
+  }
+  &:nth-child(3) {
+    width: 12.1rem;
+  }
+  &:nth-child(4) {
+    width: 8.5rem;
+  }
+  &:nth-child(5) {
+    width: 6.4rem;
+  }
+}
+
+.catering {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media only screen and (max-width: 61.9375em) {
+    margin-top: 2rem;
+  }
 }

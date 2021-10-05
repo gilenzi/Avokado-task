@@ -1,5 +1,6 @@
 // Abstracts
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 //Base
 @import "base/base";
@@ -8,6 +9,10 @@
 //Components
 @import "components/page-header";
 @import "components/breadcrumbs";
+@import "components/location-card";
+@import "components/news-section";
+@import "components/button";
+@import "components/images-gallery";
 
 // Layout
 @import "layout/header";

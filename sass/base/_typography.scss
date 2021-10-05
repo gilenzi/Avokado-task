@@ -2,4 +2,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
 // Valera Round
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+.heading-secondary {
+  font-size: 3.5rem;
+  font-family: "Secular One", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.0012rem;
+  color: $black-two;
+  margin-bottom: 2.4rem;
+}
+
+// ===========================================================
+// NEWS SECTION
+// ===========================================================
+
+.text,
+.link {
+  font-size: 1.6rem;
+  font-family: "Varela", sans-serif;
+  color: $brownish-grey;
+  letter-spacing: 0.005rem;
+  line-height: 1.13;
+  text-align: center;
+}
+.link-pink {
+  color: $medium-pink;
+  text-decoration: none;
+}
+
+.footer__link {
+  color: $medium-pink !important;
+}
+// ===========================================================
+// ABOUT SECTION
+// ===========================================================
+
+.about-title {
+  font-size: 1.8rem;
+  font-family: "Secular One", sans-serif;
+  letter-spacing: 0.0013rem;
+  text-transform: uppercase;
+  color: $black-two;
+}
+
+.about-text {
+  font-size: 1.4rem;
+  font-family: "Varela", sans-serif;
+  color: $black;
+}

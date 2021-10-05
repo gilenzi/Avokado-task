@@ -1,12 +1,14 @@
 .breadcrumbs {
-  margin-top: 3.9rem !important;
+  margin-top: 3.9rem;
   font-size: 1.2rem;
+  font-family: "Varela", sans-serif;
   color: $warm-gray;
 }
 
-.link {
+.link-breadcrumb {
   color: $warm-gray;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .breadcrumbs span strong {

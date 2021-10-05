@@ -4,11 +4,15 @@
   "description": "Creating task for Avocado",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.prefix.css"
   },
   "author": "Ognjen Popovic",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "gulp": "^4.0.2",
     "node-sass": "^6.0.1"
-  }
+  },
+  "dependencies": {}
 }

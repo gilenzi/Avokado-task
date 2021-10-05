@@ -1,6 +1,9 @@
 .page-header {
   background-image: url(../../img/path-9-copy-2.svg);
   padding-top: 7.8rem;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
   &__title {
     font-size: 5.5rem;
@@ -11,7 +14,7 @@
   }
 
   &__text {
-    font-family: "Secular One", sans-serif;
+    font-family: "Varela", sans-serif;
     font-size: 1.6rem;
     color: $black-three;
     letter-spacing: 0.005;
@@ -20,5 +23,8 @@
     font-style: normal;
     line-height: 20px;
     margin: 0.4rem 35.8rem 0 0;
+    @media only screen and (max-width: 47.9375em) {
+      margin: 0.4rem 5.8rem 0 0;
+    }
   }
 }
